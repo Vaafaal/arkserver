@@ -1,8 +1,3 @@
-[![Travis CI Build Status](https://img.shields.io/travis/thmhoag/arkserver/master?label=Travis%20CI&style=flat-square)](https://travis-ci.org/github/thmhoag/arkserver)
-[![Docker Build Status](https://img.shields.io/docker/cloud/build/thmhoag/arkserver?style=flat-square)](https://hub.docker.com/r/thmhoag/arkserver/builds/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/thmhoag/arkserver.svg?style=flat-square)](https://hub.docker.com/r/thmhoag/arkserver/) 
-[![License](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](https://github.com/thmhoag/arkserver/blob/master/LICENSE)
-
 
 # arkserver
 ```
@@ -15,7 +10,7 @@ NOTE: **This repository is no longer maintained and is considered deprecated. Th
 
 This is an image for running an ARK: Survival Evolved server in a Docker container. It is heavily based off of [TuRz4m](https://github.com/TuRz4m)'s work located here: [TuRz4m/Ark-docker](https://github.com/TuRz4m/Ark-docker). It uses [FezVrasta](https://github.com/FezVrasta)'s [arkmanager](https://github.com/FezVrasta/ark-server-tools) (ark-server-tools) to managed a single-instance ARK: Survival Evolved server inside a docker container.
 
-This image inherits from the [thmhoag/steamcmd](https://github.com/thmhoag/steamcmd) image to include the latest version of `steamcmd`.
+This image inherits from the [thmhoag/steamcmd](https://github.com/thmhoag/steamcmd)
 
 For more information on `arkmanager`, see the repo here: https://github.com/FezVrasta/ark-server-tools
 
